@@ -11,10 +11,15 @@ class FighterService {
             throw error;
         }
     }
+    
 
     async getFighterDetails(id) {
         // todo: implement this method
         // endpoint - `details/fighter/${id}.json`;
+        let fighters = this.getFighters();
+        
+
+
     }
 }
 
